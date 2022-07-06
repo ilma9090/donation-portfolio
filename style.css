@@ -38,7 +38,7 @@ height: 600px;
 
 #manza-mara{
     color: black;
-    font-weight: 200;
+    font-weight: 700;
     margin-top: 30px;
 
 }    
@@ -87,7 +87,7 @@ p{
     font-size: 20x;
     color: gray;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 40px;
     
 }
 #margin-ally{
@@ -137,4 +137,54 @@ h2{
 }
 .front-in{
     justify-content: center;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+padding-right: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.flexible-con{
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 200px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+
+}
+.form-box{
+    padding: 30px;
+    border-radius: 10px;
+    background: plum;
+    box-shadow: 10px 10px 15px aquamarine; -10px 
+}
+.form-box input{
+    font-size: 18px;
+    color: blueviolet;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    background: pink;
+}
+.form-box button{
+    color: teal;
+    padding: 15px 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+footer{
+    bottom: 0;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    color: tomato;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder
 }
